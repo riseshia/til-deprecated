@@ -1,10 +1,10 @@
 # Upgrade to Jekyll 3.0
 
-어제 급거 발표된 [깃헙 페이지의 버전업](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0). 호환성 이슈가 많다고 해서 긴장하고 있었는데, 막상 해보니 생각보다 별 이슈가 없었다. 간단하게 주요 변경정 요약 및 어제 깃헙 페이지 3개를 패치할때 있었던 몇몇 트러블 슈팅을 정리.
+어제 급거 발표된 [깃헙 페이지의 버전업](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0). 호환성 이슈가 많다고 해서 긴장하고 있었는데, 막상 해보니 생각보다 별 이슈가 없었습니다. 그래서 했던 작업 정리하는김에 간단하게 주요 변경점 요약 및 어제 깃헙 페이지 3개를 사전 패치할때 있었던 몇몇 트러블 슈팅을 정리했습니다.
 
 ## 주요 변경점
 
-현재까지는 안내사항이며 이하의 내용은 2016년 5월 1일부터 적용된다.
+현재까지는 안내사항이며, 이하의 내용은 2016년 5월 1일부터 적용됩니다.
 
 * 깃헙 페이지가 **[kramdown](http://kramdown.gettalong.org)이라는 마크다운 엔진만을 지원하게 됩니다.**
 * Syntax-highlighter를 **[Rouge](https://github.com/jneen/rouge)만 지원하게 변경됩니다.**
@@ -15,6 +15,7 @@
 좀 더 자세한 설명은 [Jekyll 3.0 Upgrade Guide](http://jekyllrb.com/docs/upgrading/2-to-3/)를 참고하면 좋습니다.
 
 ## How-to
+
 ### Change to Kradown
 
 기존에 지원하던 Redcarpet, Rdiscount와 호환 가능하므로 그대로 넘어가시면 됩니다. 지금 당장 넘어가고 싶으시다면 설정(`_config.yml`)에서 명시적으로 사용할 엔진을 지정해주세요.
